@@ -1,0 +1,45 @@
+{
+    "tripName": "Gabbi's Birthday Trip",
+
+    "traveler":{
+        "name": "Gabrielle McCaleb",
+        "contact": {
+            "email": "gabriellemccaleb@gmail.com",
+            "phone": "314-358-8525"
+        }
+    },
+
+    "destinations": [
+        {
+            "location": "Los Angeles, CA", 
+            "arrivalDate": "2025-11-04", 
+            "departureDate": "2025-11-06",
+            "activities": [
+                {
+                    "title": "NBA game",
+                    "time": "6:00 PM"
+                },
+                {
+                    "title": "Beach Day",
+                    "time": "11:00 AM"
+                }
+            ]
+        },
+        {
+            "location": "Las Vegas, NV",
+            "arrivalDate": "2025-11-06",
+            "departureDate": "2025-11-09",
+            "activities":[
+                {
+                    "title": "ATV Tour",
+                    "time": "6:00 AM"
+                },
+                {
+                    "title": "Museum of Illusions",
+                    "time": "2:00 PM"
+                }
+            ]
+        }
+    ]
+
+}
