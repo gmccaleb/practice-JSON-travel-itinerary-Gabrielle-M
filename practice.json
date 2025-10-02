@@ -12,6 +12,16 @@
     "destinations": [
         {
             "location": "Los Angeles, CA", 
+
+            "transportationTo": {
+                "mode": "flight",
+                "from": "St. Louis, MO",
+                "to": "Los Angeles, CA",
+                "departureTime": "10:00 AM",
+                "arrivalTime": "12:00 PM",
+                "cost": "$250"
+            },
+
             "arrivalDate": "2025-11-04", 
             "departureDate": "2025-11-06",
             "activities": [
@@ -23,12 +33,34 @@
                     "title": "Beach Day",
                     "time": "11:00 AM"
                 }
-            ]
+            ],
+
+            "transportationFrom": {
+                "mode": "rental car",
+                "from": "Los Angeles, CA",
+                "to": "Las Vegas, NV",
+                "departureTime": "8:00AM",
+                "arrivalTime": "12:00 PM",
+                "cost": "$120"
+            }
         },
+        
+
         {
             "location": "Las Vegas, NV",
+
+            "transportationTo": {
+                "mode": "rental car",
+                "from": "Los Angeles, CA",
+                "to": "Las Vegas, NV",
+                "departureTime": "8:00AM",
+                "arrivalTime": "12:00 PM",
+                "cost": "$120"
+            },
+
             "arrivalDate": "2025-11-06",
             "departureDate": "2025-11-09",
+
             "activities":[
                 {
                     "title": "ATV Tour",
@@ -38,8 +70,55 @@
                     "title": "Museum of Illusions",
                     "time": "2:00 PM"
                 }
-            ]
+            ],
+
+            "transportationFrom": {
+                "mode": "flight",
+                "from": "Las Vegas, NV",
+                "to": "Denver, CO",
+                "departureTime": "3:00 PM",
+                "arrivalTime": "4:15 PM",
+                "cost": "$160"
+            }
+        },
+
+        {
+            "location": "Denver, CO",
+
+            "transportationTo": {
+                "mode": "flight",
+                "from": "Las Vegas, NV",
+                "to": "Denver, CO",
+                "departureTime": "3:00 PM",
+                "arrivalTime": "4:15 PM",
+                "cost": "$160"
+            },
+
+            "arrivalDate": "2025-11-09",
+            "departureDate": "2025-11-12",
+
+            "activities":[
+                {
+                    "title": "ATV Tour",
+                    "time": "6:00 AM"
+                },
+                {
+                    "title": "Museum of Illusions",
+                    "time": "2:00 PM"
+                }
+            ],
+
+            "transportationFrom": {
+                "mode": "flight",
+                "from": "Denver, CO",
+                "to": "St. Louis, MO",
+                "departureTime": "6:00 PM",
+                "arrivalTime": "9:00 PM",
+                "cost": "$220"
+            }
         }
     ]
-
 }
+
+    
+
